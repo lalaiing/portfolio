@@ -60,7 +60,7 @@ export const siteConfig = {
       ],
     },
   ],
-  achievements: [
+  awards: [
     {
       title: "2nd Winner of DTS Yandex Competition Indonesia",
       organization: "Yandex, Digital Talent Scholarship – Ministry of Communication and Digital Affairs, Republic of Indonesia, and Techready.id",
