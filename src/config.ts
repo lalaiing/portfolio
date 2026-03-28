@@ -59,16 +59,6 @@ export const siteConfig = {
         "Relevant coursework: Object-Oriented Programming and Data Structures, Exploring Artificial Intelligence",
       ],
     },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
   ],
   achievements: [
     {
