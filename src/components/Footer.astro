@@ -5,6 +5,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 const hasAwards = siteConfig.awards && siteConfig.awards.length > 0;
+const hasExtracurriculars = siteConfig.extracurriculars && siteConfig.extracurriculars.length > 0;
 ---
 
 <footer class="relative bg-gray-50 border-t border-gray-200">
@@ -132,12 +133,12 @@ const hasAwards = siteConfig.awards && siteConfig.awards.length > 0;
             >About</a
           >
           {
-            hasProjects && (
+            hasEducation && (
               <a
-                href="#projects"
+                href="#education"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
-                Projects
+                Education
               </a>
             )
           }
@@ -152,12 +153,12 @@ const hasAwards = siteConfig.awards && siteConfig.awards.length > 0;
             )
           }
           {
-            hasEducation && (
+            hasProjects && (
               <a
-                href="#education"
+                href="#projects"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
-                Education
+                Projects
               </a>
             )
           }
@@ -168,6 +169,16 @@ const hasAwards = siteConfig.awards && siteConfig.awards.length > 0;
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
                 Awards
+              </a>
+            )
+          }
+          {
+            hasExtracurriculars && (
+              <a
+                href="#extracurriculars"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Extracurriculars
               </a>
             )
           }
