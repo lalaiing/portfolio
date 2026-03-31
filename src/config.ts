@@ -78,7 +78,7 @@ export const siteConfig = {
       ],
     },
   ],
-  extracurriculars: [
+  activities: [
     {
       title: "Head of Public Relations Division",
       organization: "Indonesian Scientific Student Association",
