@@ -5,6 +5,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 const hasAwards = siteConfig.awards && siteConfig.awards.length > 0;
+const hasExtracurriculars = siteConfig.extracurriculars && siteConfig.extracurriculars.length > 0;
 ---
 
 <header
@@ -22,13 +23,13 @@ const hasAwards = siteConfig.awards && siteConfig.awards.length > 0;
         </a>
       </li>
       {
-        hasProjects && (
+        hasEducation && (
           <li>
             <a
-              href="#projects"
+              href="#education"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Projects
+              Education
             </a>
           </li>
         )
@@ -46,13 +47,13 @@ const hasAwards = siteConfig.awards && siteConfig.awards.length > 0;
         )
       }
       {
-        hasEducation && (
+        hasProjects && (
           <li>
             <a
-              href="#education"
+              href="#projects"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Education
+              Projects
             </a>
           </li>
         )
@@ -65,6 +66,18 @@ const hasAwards = siteConfig.awards && siteConfig.awards.length > 0;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Awards
+            </a>
+          </li>
+        )
+      }
+      {
+        hasExtracurriculars && (
+          <li>
+            <a
+              href="#extracurriculars"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Extracurriculars
             </a>
           </li>
         )
