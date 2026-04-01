@@ -59,6 +59,20 @@ export const siteConfig = {
       link: "https://github.com/lalaiing/course-watchdog",
       skills: ["Python", "discord.py", "aiohttp", "FastAPI", "Web Scraping"],
     },
+    {
+      name: "Cancer Cell Classification and Clustering with KNN and K-Means",
+      description:
+        "A machine learning project that analyzes high-dimensional protein abundance data to classify and cluster cancer cells. The implementation includes preprocessing with quantile normalization and z-score normalization, PCA-based visualization, a from-scratch K-Nearest Neighbors classifier with tie-breaking, and a simplified bisecting-style K-Means clustering pipeline. The project emphasizes translating mathematical ideas into efficient vectorized NumPy code.",
+      link: "https://github.com/lalaiing/cancer-cell-knn-kmeans",
+      skills: ["Python", "NumPy", "Pandas", "scikit-learn", "Matplotlib", "PCA", "KNN", "K-Means", "Data Preprocessing", "Vectorization"],
+    },
+    {
+      name: "Lane Detection and Direction Prediction from Dashcam Footage",
+      description:
+        "A computer vision and deep learning project that detects lane markings from dashcam images and predicts driving direction from short video sequences. The pipeline combines bright-pixel extraction, lane tracing, edge detection, quadratic curve fitting, and curvature-based direction estimation, followed by a branching CNN with 3D and 2D convolutional layers for left, straight, and right direction classification.",
+      link: "https://github.com/lalaiing/lane-detection-mini-autopilot",
+      skills: ["Python", "NumPy", "OpenCV", "Keras", "Matplotlib", "Computer Vision", "CNN", "3D Convolution", "Image Processing", "Lane Detection"],
+    },
   ],
   awards: [
     {
